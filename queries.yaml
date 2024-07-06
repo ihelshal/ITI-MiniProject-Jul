@@ -1,0 +1,5 @@
+- task: db_show
+- query: SELECT show_id from Netflix limit 100;
+
+- task: db_cast
+- query: SELECT cast from Netflix Where year=2020;
